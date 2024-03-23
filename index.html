@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script src="bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <!-- slidebar started -->
+  <div class="sidebar close">
+    <div class="logo-details">
+      <i class='bx bxl-bitcoin'></i>
+      <span class="logo_name">Menu</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="#">
+          <i class='bx bx-home'></i>
+          <span class="link_name">Home</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Home</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="loginpage.html">
+          <i class='bx bxs-credit-card'></i>
+          <span class="link_name">Login page</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Pricing</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="datemap.html">
+          <i class='bx bx-bar-chart'></i>
+          <span class="link_name">Product info</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Chart</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-compass'></i>
+          <span class="link_name">Explore</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Explore</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog'></i>
+          <span class="link_name">Setting</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Setting</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="profile-details">
+          <div class="profile-content">
+            <img src="https://sachinsamal.netlify.app/static/media/sachin-samal.d451ea9b3c53ed984bf7.png"
+              alt="profileImg">
+          </div>
+          <div class="name-job">
+            <div class="profile_name">John Doe</div>
+            <div class="job">Crypto Expert</div>
+          </div>
+          <i class='bx bx-log-out'></i>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+
+  <!-- navbar started -->
+
+
+  <section class="home-section p-3">
+    <div class="home-content">
+      <i class='bx bx-menu'></i>
+      <span class="text">Admin Panel</span>
+      <nav class="navbar navbar-expand-lg navbar-light ">
+
+
+
+        <div class="collapse navbar-collapse nav1" id="navbarTogglerDemo03">
+          <img src="img/face1.jpg" alt="" srcset="" height="40px" class="i1 m-3">
+          <a class="navbar-brand ms-0  my-2 " href="#">Dravida Gramer</a>
+
+          <ul class="navbar-nav mr-auto ">
+            <li class="nav-item active  ">
+              <i class="fa-solid fa-expand  m-3"></i>
+            </li>
+            <li class="nav-item">
+              <i class="fa-regular fa-envelope  m-3"></i>
+            </li>
+            <li class="nav-item">
+              <i class="fa-regular fa-bell  m-3"></i>
+            </li>
+            <li class="nav-item">
+              <i class="fa-solid fa-power-off  m-3"></i>
+            </li>
+            <li class="nav-item">
+              <i class="fa-solid fa-bars m-3"></i>
+            </li>
+
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+
+
+    <!-- content started -->
+
+    <!-- table started -->
+    <div class="display-5 text-center"><b>User Information</b></div>
+
+    <div class="container-fluid mt-3 ">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Email Id</th>
+            <th scope="col">Action</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>abc@gmail.com</td>
+            <td>
+              <button class="bg-primary text-white ">Update</button>
+              <button class="bg-danger text-white">Delete</button>
+
+            </td>
+
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>tyb@gmail.com</td>
+            <td>
+              <button class="bg-primary text-white ">Update</button>
+              <button class="bg-danger text-white">Delete</button>
+
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>jkkl@gmail.com</td>
+            <td>
+              <button class="bg-primary text-white ">Update</button>
+              <button class="bg-danger text-white">Delete</button>
+
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Parry</td>
+            <td>the Bird</td>
+            <td>abe@gmail.com</td>
+            <td>
+              <button class="bg-primary text-white ">Update</button>
+              <button class="bg-danger text-white">Delete</button>
+
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>marry</td>
+            <td>the Bird</td>
+            <td>mkl</td>
+            <td>
+              <button class="bg-primary text-white ">Update</button>
+              <button class="bg-danger text-white">Delete</button>
+
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- table end  -->
+
+    <!-- dashbaord started -->
+    <div class="display-6">
+      <center>charts</center>
+    </div>
+    <div class="container">
+      <canvas id="myChart"></canvas>
+    </div>
+
+    <!-- secodn chat -->
+    <div class="display-6">charts</div>
+    <!-- https://codepen.io/jlalovi/details/bIyAr -->
+    <div class="chhr1">
+      <div class="container mt-5  har3  ">
+        <!-- DONUT CHART BLOCK (LEFT-CONTAINER) -->
+        <div class="donut-chart-block block">
+          <h2 class="titular">OS AUDIENCE STATS</h2>
+          <div class="donut-chart">
+            <!-- PORCIONES GRAFICO CIRCULAR
+      ELIMINADO #donut-chart
+      MODIFICADO CSS de .donut-chart -->
+            <div id="porcion1" class="recorte">
+              <div class="quesito ios" data-rel="21"></div>
+            </div>
+            <div id="porcion2" class="recorte">
+              <div class="quesito mac" data-rel="39"></div>
+            </div>
+            <div id="porcion3" class="recorte">
+              <div class="quesito win" data-rel="31"></div>
+            </div>
+            <div id="porcionFin" class="recorte">
+              <div class="quesito linux" data-rel="9"></div>
+            </div>
+            <!-- FIN AÑADIDO GRÄFICO -->
+            <p class="center-date">JUNE<br><span class="scnd-font-color">2013</span></p>
+          </div>
+          <ul class="os-percentages horizontal-list">
+            <li>
+              <p class="ios os scnd-font-color">iOS</p>
+              <p class="os-percentage">21<sup>%</sup></p>
+            </li>
+            <li>
+              <p class="mac os scnd-font-color">Mac</p>
+              <p class="os-percentage">39<sup>%</sup></p>
+            </li>
+            <li>
+              <p class="linux os scnd-font-color">Linux</p>
+              <p class="os-percentage">9<sup>%</sup></p>
+            </li>
+            <li>
+              <p class="win os scnd-font-color">Win</p>
+              <p class="os-percentage">31<sup>%</sup></p>
+            </li>
+          </ul>
+        </div>
+        <!-- LINE CHART BLOCK (LEFT-CONTAINER) -->
+        <div class="line-chart-block block">
+          <div class="line-chart">
+            <div class='grafico'>
+              <ul class='eje-y'>
+                <li data-ejeY='30'></li>
+                <li data-ejeY='20'></li>
+                <li data-ejeY='10'></li>
+                <li data-ejeY='0'></li>
+              </ul>
+              <ul class='eje-x'>
+                <li>Apr</li>
+                <li>May</li>
+                <li>Jun</li>
+              </ul>
+              <span data-valor='25'>
+                <span data-valor='8'>
+                  <span data-valor='13'>
+                    <span data-valor='5'>
+                      <span data-valor='23'>
+                        <span data-valor='12'>
+                          <span data-valor='15'>
+                          </span></span></span></span></span></span></span>
+            </div>
+
+          </div>
+          <ul class="time-lenght horizontal-list">
+            <li><a class="time-lenght-btn" href="#14">Week</a></li>
+            <li><a class="time-lenght-btn" href="#15">Month</a></li>
+            <li><a class="time-lenght-btn" href="#16">Year</a></li>
+          </ul>
+          <ul class="month-data clear">
+            <li>
+              <p>APR<span class="scnd-font-color"> 2013</span></p>
+              <p><span class="entypo-plus increment"> </span>21<sup>%</sup></p>
+            </li>
+            <li>
+              <p>MAY<span class="scnd-font-color"> 2013</span></p>
+              <p><span class="entypo-plus increment"> </span>48<sup>%</sup></p>
+            </li>
+            <li>
+              <p>JUN<span class="scnd-font-color"> 2013</span></p>
+              <p><span class="entypo-plus increment"> </span>35<sup>%</sup></p>
+            </li>
+          </ul>
+        </div>
+
+
+
+        <div class="bar-chart-block block">
+          <h2 class='titular'>By Country <span>*1000</span></h2>
+          <div class='grafico bar-chart'>
+            <ul class='eje-y'>
+              <li data-ejeY='60'></li>
+              <li data-ejeY='45'></li>
+              <li data-ejeY='30'></li>
+              <li data-ejeY='15'></li>
+              <li data-ejeY='0'></li>
+            </ul>
+            <ul class='eje-x'>
+              <li data-ejeX='37'><i>España</i></li>
+              <li data-ejeX='56'><i>Portugal</i></li>
+              <li data-ejeX='25'><i>Italia</i></li>
+              <li data-ejeX='18'><i>Grecia</i></li>
+              <li data-ejeX='45'><i>EE.UU</i></li>
+              <li data-ejeX='50'><i>México</i></li>
+              <li data-ejeX='33'><i>Chile</i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- celender started -->
+    <!-- inspired by http://colorhunt.co/c/8184 and 
+    https://dribbble.com/shots/2407357-Calendar%60 -->
+
+    <center>
+      <h1>calender</h1>
+    </center>
+
+    <div class="container ">
+      <div class="calendar">
+        <div class="front">
+          <div class="current-date">
+            <h1>Friday 15th</h1>
+            <h1>January 2016</h1>
+          </div>
+
+          <div class="current-month">
+            <ul class="week-days">
+              <li>MON</li>
+              <li>TUE</li>
+              <li>WED</li>
+              <li>THU</li>
+              <li>FRI</li>
+              <li>SAT</li>
+              <li>SUN</li>
+            </ul>
+
+            <div class="weeks">
+              <div class="first">
+                <span class="last-month">28</span>
+                <span class="last-month">29</span>
+                <span class="last-month">30</span>
+                <span class="last-month">31</span>
+                <span>01</span>
+                <span>02</span>
+                <span>03</span>
+              </div>
+
+              <div class="second">
+                <span>04</span>
+                <span>05</span>
+                <span class="event">06</span>
+                <span>07</span>
+                <span>08</span>
+                <span>09</span>
+                <span>10</span>
+              </div>
+
+              <div class="third">
+                <span>11</span>
+                <span>12</span>
+                <span>13</span>
+                <span>14</span>
+                <span class="active">15</span>
+                <span>16</span>
+                <span>17</span>
+              </div>
+
+              <div class="fourth">
+                <span>18</span>
+                <span>19</span>
+                <span>20</span>
+                <span>21</span>
+                <span>22</span>
+                <span>23</span>
+                <span>24</span>
+              </div>
+
+              <div class="fifth">
+                <span>25</span>
+                <span>26</span>
+                <span>27</span>
+                <span>28</span>
+                <span>29</span>
+                <span>30</span>
+                <span>31</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="back">
+          <input placeholder="What's the event?">
+          <div class="info">
+            <div class="date">
+              <p class="info-date">
+                Date: <span>Jan 15th, 2016</span>
+              </p>
+              <p class="info-time">
+                Time: <span>6:35 PM</span>
+              </p>
+            </div>
+            <div class="address">
+              <p>
+                Address: <span>129 W 81st St, New York, NY</span>
+              </p>
+            </div>
+            <div class="observations">
+              <p>
+                Observations: <span>Be there 15 minutes earlier</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="actions">
+            <button class="save">
+              Save <i class="ion-checkmark"></i>
+            </button>
+            <button class="dismiss">
+              Dismiss <i class="ion-android-close"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <center>
+      <h2>Maps</h2>
+    </center>
+    <div class="responsive-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.7806761080233!2d-93.29138368446431!3d44.96844997909819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32b6ee2c87c91%3A0xc20dff2748d2bd92!2sWalker+Art+Center!5e0!3m2!1sen!2sus!4v1514524647889"
+        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+
+
+
+
+  </section>
+</body>
+
+</html>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  const ctx = document.getElementById('myChart');
+
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+      datasets: [{
+        label: '# of Votes',
+        data: [12, 19, 3, 5, 2, 3],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+  crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+<script src="assets/demo/chart-area-demo.js"></script>
+<script src="assets/demo/chart-bar-demo.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js"
+  crossorigin="anonymous"></script>
+<script src="js/datatables-simple-demo.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/6.1.10/index.min.js"
+  integrity="sha512-xCMh+IX6X2jqIgak2DBvsP6DNPne/t52lMbAUJSjr3+trFn14zlaryZlBcXbHKw8SbrpS0n3zlqSVmZPITRDSQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js"
+  integrity="sha512-gauu0VKZq9ry8hOZHgNpcB2ogbSDojs+XLDItpOLY0IyA+KigeuT/suwSdPgfU/TGYLAn4Nan4OeaCa/UPr70Q=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>

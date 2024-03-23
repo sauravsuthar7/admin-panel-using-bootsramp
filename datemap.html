@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- slidebar started -->
+    <div class="sidebar close">
+        <div class="logo-details">
+            <i class='bx bxl-bitcoin'></i>
+            <span class="logo_name">Menu</span>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="#">
+                    <i class='bx bx-home'></i>
+                    <span class="link_name">Home</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Home</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="loginpage.html">
+                    <i class='bx bxs-credit-card'></i>
+                    <span class="link_name">Login page</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Pricing</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-bar-chart'></i>
+                    <span class="link_name">Chart</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Chart</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-compass'></i>
+                    <span class="link_name">Explore</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Explore</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-cog'></i>
+                    <span class="link_name">Setting</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Setting</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="profile-details">
+                    <div class="profile-content">
+                        <img src="https://sachinsamal.netlify.app/static/media/sachin-samal.d451ea9b3c53ed984bf7.png"
+                            alt="profileImg">
+                    </div>
+                    <div class="name-job">
+                        <div class="profile_name">John Doe</div>
+                        <div class="job">Crypto Expert</div>
+                    </div>
+                    <i class='bx bx-log-out'></i>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- navbar started -->
+
+
+    <section class="home-section p-3">
+        <div class="home-content">
+            <i class='bx bx-menu'></i>
+            <span class="text">Admin Panel</span>
+            <nav class="navbar navbar-expand-lg navbar-light ">
+
+
+
+                <div class="collapse navbar-collapse nav1" id="navbarTogglerDemo03">
+                    <img src="img/face1.jpg" alt="" srcset="" height="40px" class="i1 m-3">
+                    <a class="navbar-brand ms-0  my-2 " href="#">Dravida Gramer</a>
+
+                    <ul class="navbar-nav mr-auto ">
+                        <li class="nav-item active  ">
+                            <i class="fa-solid fa-expand  m-3"></i>
+                        </li>
+                        <li class="nav-item">
+                            <i class="fa-regular fa-envelope  m-3"></i>
+                        </li>
+                        <li class="nav-item">
+                            <i class="fa-regular fa-bell  m-3"></i>
+                        </li>
+                        <li class="nav-item">
+                            <i class="fa-solid fa-power-off  m-3"></i>
+                        </li>
+                        <li class="nav-item">
+                            <i class="fa-solid fa-bars m-3"></i>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+
+
+        <!-- content started -->
+
+        <!-- product informaton -->
+        <div class="display-5 mt-3"><b>
+                <center>Product Information</center>
+            </b></div>
+
+        <form class="container w-75">
+            <div class="form-group ">
+                <label for="exampleInputEmail1">Product Name</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter Product Name">
+                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small> -->
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Price</label>
+                <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Price">
+            </div>
+            <br>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <div class="display-6 mt-3">
+            <center>Product Listing</center>
+        </div>
+
+        <div class="container mt-5 d-flex">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/18015-MC20BluInfinito-scaled-e1666008987698.jpg" height="200px"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/download (1).jpeg" height="200px " alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/download (2).jpeg" height="200px " alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/download.jpeg" height="200px " alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </section>
+</body>
+
+</html>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+<script src="assets/demo/chart-area-demo.js"></script>
+<script src="assets/demo/chart-bar-demo.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js"
+    crossorigin="anonymous"></script>
+<script src="js/datatables-simple-demo.js"></script>
